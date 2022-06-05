@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment.prod';
 
 
-const API_BASE = 'https://api-programa-egresados.herokuapp.com';
+const API_BASE = environment.baseUrl;
 
 
 @Injectable({
